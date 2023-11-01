@@ -1,0 +1,63 @@
+body{
+    background: #001e45;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+
+}      
+
+#board{
+    width: 400px;
+    height: 250px;
+    display: flex;    
+    justify-content: space-around;
+    margin: 100px;
+    border: white solid 10px
+    
+}
+
+.team{
+    color: white;
+    font-family: Verdana;
+  
+}
+    
+.score{
+    display: flex;
+    justify-content: center;
+    font-size: 90px;
+    color: red;
+    background: black ;
+    border: white solid 5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 150px
+    
+    
+}
+
+.addpoints {
+    
+    display: flex;
+    justify-content: flex-start;
+    border: white solid px;
+    
+    
+}
+.plus{
+    width: 40px;
+    height: 45px;
+    border: white solid 3px;
+    border-radius: 6px;
+    margin-top: 15px;    
+    background: gray ;
+    color: black ;
+    margin-left: 10px;
+    
+}
+
+
+
