@@ -1,63 +1,107 @@
-body{
-    background: #001e45;
+body {
+    background: #041E42;
+    font-family: Arial, sans-serif;
+    color: #fff;
     text-align: center;
     align-items: center;
     display: flex;
     justify-content: center;
     margin: auto;
-    
-
-}      
-
-#board{
-    width: 400px;
-    height: 250px;
-    display: flex;    
-    justify-content: space-around;
-    margin: 100px;
-    border: white solid 10px
-    
 }
 
-.team{
-    color: white;
-    font-family: Verdana;
-  
-}
-    
-.score{
+#board {
+    width: 800px;
+    height: 325px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    margin: 100px auto;
+    border: 10px solid #FFF;
+    border-radius: 10px;
+    background-color: #0F3057;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.team {
+    color: #FFD700;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 54px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.score {
     font-size: 90px;
-    color: red;
-    background: black ;
-    border: white solid 5px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    width: 150px
-    
-    
+    font-weight: bold;
+    color: #FF5733;
+    background-color: #000;
+    padding: 20px;
+    border: 5px solid #FFF;
+    border-radius: 10px;
+    margin: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.score:hover {
+    transform: scale(1.05);
 }
 
 .addpoints {
-    
     display: flex;
-    justify-content: flex-start;
-    border: white solid px;
-    
-    
+    justify-content: center;
 }
-.plus{
+
+.plus {
     width: 40px;
     height: 45px;
-    border: white solid 3px;
+    border: none;
     border-radius: 6px;
-    margin-top: 15px;    
-    background: gray ;
-    color: black ;
-    margin-left: 10px;
-    
+    margin: 15px;
+    background: #FFD700;
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
+.plus:hover {
+    background-color: #FFA500;
+}
 
+.plus:active {
+    transform: translateY(2px);
+}
 
+#controls {
+    margin-top: 20px;
+}
+
+#new-game {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#new-game:hover {
+    background-color: #45a049;
+}
+
+#new-game{
+    font-size: 20px;
+    padding: 5px;
+    background-color: #FFD700;
+    color: black;
+    font-weight: bold;
+}
+
+#controls{
+    margin-top: 150px
+}
