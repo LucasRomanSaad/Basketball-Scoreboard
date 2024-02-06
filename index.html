@@ -1,46 +1,43 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <title> SCOREBOARD</title>
-        <link rel="stylesheet" href="index.css">
-        
-    </head>
-    <body>
-    <div id="board">    
+<head>
+    <link rel="stylesheet" href="index.css">
+    <title>SCOREBOARD</title>
+</head>
+<body>
+    <div id="board">
         <div id="home">
-            
             <div>
-            <h2 class='team'>HOME</h2>
+                <h2 class='team'>HOME</h2>
             </div>
-            
             <div>
-                <p class="score">0</p>
+                <p class="score" id="home-score">0</p>
             </div>
-            
             <div class="addpoints">
-                <button class='plus' onclick="a">+1</button>
-                <button class='plus' onclick="hplus2()">+2</button>
-                <button class='plus' onclick="hplus3()">+3</button>
+                <button class='plus' onclick="addPoint('home', 1)">+1</button>
+                <button class='plus' onclick="addPoint('home', 2)">+2</button>
+                <button class='plus' onclick="addPoint('home', 3)">+3</button>
             </div>
-        
-    </div>
-
+        </div>
+        <div id="controls">
+            <button id="new-game" onclick="resetScores()">New Game</button>
+        </div>
         <div id="Away">
-            
             <div>
-            <h2 class='team'>AWAY</h2>
+                <h2 class='team'>AWAY</h2>
             </div>
-            
             <div class="scorebackground">
-                <p class="score">0</p>
+                <p class="score" id="away-score">0</p>
             </div>
-            
             <div class="addpoints">
-                <button class="plus">+1</button>
-                <button class="plus">+2</button>
-                <button class="plus">+3</button>
+                <button class="plus" onclick="addPoint('away', 1)">+1</button>
+                <button class="plus" onclick="addPoint('away', 2)">+2</button>
+                <button class="plus" onclick="addPoint('away', 3)">+3</button>
             </div>
-        
+        </div>
     </div>
+    
 
+    <script src="index.js"></script>
+</body>
 </html>
