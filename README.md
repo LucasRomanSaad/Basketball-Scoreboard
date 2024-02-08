@@ -1,21 +1,3 @@
-# cgwJGnUG
+# Basketball Scoreboard
 
-Quick start:
-
-```
-$ npm install
-$ npm start
-````
-
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
-
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
-
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
+The scoreboard web application is a simple and user-friendly tool designed to help users track scores for two teams in various competitive activities or games. With intuitive controls allowing users to increment scores for each team by one, two, or three points, as well as a convenient "New Game" button to reset scores, the application offers a straightforward and efficient solution for managing scorekeeping needs. Built with HTML, CSS, and JavaScript, it boasts a clean and responsive design, ensuring seamless usage across different devices and screen sizes.
